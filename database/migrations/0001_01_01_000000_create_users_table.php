@@ -23,12 +23,6 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        User::create([
-            'name' => 'Test User',
-            'email' => 'test@user.com',
-            'password' => Hash::make('password'),
-        ]);
-
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary();
             $table->string('token');

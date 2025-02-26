@@ -11,7 +11,6 @@ NB: Requires PHP >=8.2, and Node >=v22
 - Run `php artisan migrate`
 - Run `composer dev`
 - Navigate to `http://127.0.0.1:8000/`
-- You can either register with a new account or use email: `test@user.com` password: `password`
 
 
 ## Tests
