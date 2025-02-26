@@ -33,8 +33,11 @@
         }
     },
     "scripts": {
-        "test": [
+        "test:coverage": [
             "@php artisan test --parallel --coverage"
+        ],
+        "test": [
+            "@php artisan test --parallel"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
